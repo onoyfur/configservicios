@@ -8,3 +8,5 @@ eureka:
     register-with-eureka: false    
   instance:
     hostname: localhost  
+  instance:
+    instance-id: ${random.value}:${spring.application.name}      
